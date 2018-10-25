@@ -58,6 +58,9 @@ public class FirstTest  {
         driver.findElement(By.id("logout-form:details")).click();
 
 
+        driver.findElement(By.id("logout-form:details")).click();
+
+
 
 
 
