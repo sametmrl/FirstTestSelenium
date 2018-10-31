@@ -57,6 +57,7 @@ public class FirstTest  {
         driver.findElement(By.partialLinkText("Home")).click();
         driver.findElement(By.id("logout-form:details")).click();
 
+        driver.findElement(By.id("signup:street")).sendKeys("EsenyurtAvcılar");
 
 
 
