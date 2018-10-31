@@ -39,10 +39,10 @@ public class FirstTest  {
 
 
         WebElement mailing=driver.findElement(By.id("signup:street"));
-        email.click();
+        mailing.click();
         Random randomGeneratorr = new Random();
         int randomIntt = randomGeneratorr.nextInt(1000);
-        email.sendKeys("username"+randomInt+"@gmail.com");
+        mailing.sendKeys("username"+randomIntt+"@gmail.com");
 
 
 
