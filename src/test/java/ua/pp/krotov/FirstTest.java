@@ -25,8 +25,8 @@ public class FirstTest  {
             System.setProperty("webdriver.chrome.driver", "C:\\driver");
         driver.get("https://demo.borland.com/InsuranceWebExtJS/");
         driver.findElement(By.id("login-form:signup")).click();
-        driver.findElement(By.id("signup:fname")).sendKeys("Batuhan");
-        driver.findElement(By.id("signup:lname")).sendKeys("Kılıçoğlu");
+        driver.findElement(By.id("signup:fname")).sendKeys("Abdussamet");
+        driver.findElement(By.id("signup:lname")).sendKeys("Meral");
         driver.findElement(By.id("BirthDate")).sendKeys("12/01/2000");
 
         WebElement email=driver.findElement(By.id("signup:email"));
