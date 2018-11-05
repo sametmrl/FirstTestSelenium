@@ -23,6 +23,7 @@ public class FirstTest  {
         // Go to the Wikipedia home page
         for (int i=1; i<=1; i++)
             System.setProperty("webdriver.chrome.driver", "C:\\driver");
+        driver.manage().window().maximize();
         driver.get("https://demo.borland.com/InsuranceWebExtJS/");
         driver.findElement(By.id("login-form:signup")).click();
         driver.findElement(By.id("signup:fname")).sendKeys("BatuhanUmutSamet");
@@ -56,32 +57,7 @@ public class FirstTest  {
         driver.findElement(By.id("signup:continue")).click();
         driver.findElement(By.partialLinkText("Home")).click();
         driver.findElement(By.id("logout-form:details")).click();
-
-
-
-
-
-
-
-
-
-
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }
 
