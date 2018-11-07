@@ -13,6 +13,8 @@ public class Signup
         a.Websiteopen();
         SignupPOI b=new SignupPOI();
         b.click_Login_button();
+        BilgiGiris c = new BilgiGiris();
+        c.BilgiGiris();
         b.click_Login_counselor();
         
     }
