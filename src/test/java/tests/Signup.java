@@ -14,7 +14,7 @@ public class Signup
         Setup a= new Setup();
         a.Websiteopen();
         AnasayfaPage anasayfaPage = new AnasayfaPage();
-        anasayfaPage.kullaniciadidoldur("john.smith@gmail.com")
+        anasayfaPage.kullaniciadidoldur("john.meral@gmail.com")
                 .sifredoldur("john")
                 .loginbutonunabas()
                 .detailsbutonunabas();
