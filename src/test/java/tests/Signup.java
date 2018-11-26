@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 import page.AnasayfaPage;
 import page.DetailsPage;
 import pages.SignupPOI;
-
+test 
 public class Signup
 {
     //public WebDriver driver;
