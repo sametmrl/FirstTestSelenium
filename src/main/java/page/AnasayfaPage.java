@@ -34,7 +34,7 @@ public class AnasayfaPage {
     }
 
 
-    @Step("Details Butonuna Bas")
+    @Step("Details butonuna gir")
     public AnasayfaPage detailsbutonunabas(){
         driver.findElement(By.id("logout-form:details")).click();
         return this;
