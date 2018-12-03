@@ -9,6 +9,16 @@ import org.testng.annotations.Test;
 import page.AnasayfaPage;
 import page.DetailsPage;
 
+pipeline {
+    agent any
+    stages {
+        stage('Build') {
+            steps {
+                bat 'set'
+            }
+        }
+    }
+}
 
 @Feature("Antet İşlemleri")
 public class KayitIslemi {
